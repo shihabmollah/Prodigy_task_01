@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8B4513; /* Brown color */
+    color: #FFF5E1; /* Cream color */
+    text-align: center;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFF5E1; /* Cream color */
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #D2B48C; /* Tan color for hover effect */
+    color: #8B4513; /* Brown color for text */
+}
+
+#content {
+    margin-top: 60px;
+}
+
+section {
+    height: 600px;
+    padding: 20px;
+}
+
+#home {
+    background-color: #FFF5E1; /* Cream color */
+}
+
+#about {
+    background-color: #FAF0E6; /* Lighter cream color */
+}
+
+#services {
+    background-color: #FFE4C4; /* Bisque color */
+}
+
+#contact {
+    background-color: #F5DEB3; /* Wheat color */
+}
